@@ -96,6 +96,23 @@ tr:nth-child(even) {
 #deleteOption {
     width: 50px;
 }
-#amountCharged::before{
-    content: "$";
+
+td:nth-child(4) {
+    color: rgb(21, 94, 6);
+    font-weight: bold;
+      }
+
+td:nth-child(1) {
+     font-style: italic;
+     text-align: center;
+      }
+
+td:nth-child(3) {
+        text-align: center;
+         }
+td:nth-child(2) {
+            font-weight: 600;
+             }        
+tbody {
+    background-color: rgb(173, 173, 170);
 }
