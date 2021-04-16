@@ -85,16 +85,19 @@ tr:nth-child(even) {
     background-color: #e09494;
 }
 
-#date{
-    width: 120px;
-}
-
-#name{
-    width: 250px;
+#dateTable{
+    width: 75px;
 }
 
 #deleteOption {
     width: 50px;
+}
+#locationTable{
+    width: 150px;
+}
+
+#amountTable{
+    width: 75px;
 }
 
 td:nth-child(4) {
@@ -104,7 +107,7 @@ td:nth-child(4) {
 
 td:nth-child(1) {
      font-style: italic;
-     text-align: center;
+     font-weight: 600;
       }
 
 td:nth-child(3) {
